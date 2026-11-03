@@ -1,0 +1,212 @@
+{
+  "evaluation_metadata": {
+    "protocol_version": "9.3.0",
+    "evaluation_type": "Pilot Independent Blind Evaluation",
+    "reviewer_a_role": "Evaluator A (Engineering Lead Perspective)",
+    "reviewer_b_role": "Evaluator B (Technical Recruitment Perspective)",
+    "rubric_scale": "0 to 3 ordinal scale; Technical defects separated",
+    "notes": "Original grades recorded independently without rater cross-communication. Disagreements resolved per documented adjudication protocol."
+  },
+  "candidate_evaluations": {
+    "c1_01_cloud_lead.pdf": {
+      "candidate_id": "c1_01",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": 3,
+      "reviewer_b_grade": 3,
+      "adjudicated_grade": 3,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous exceptional fit: all 4 skills matched, deep microservices and database achievements, strong fintech background."
+    },
+    "c1_02_python_dev.pdf": {
+      "candidate_id": "c1_02",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": 2,
+      "reviewer_b_grade": 2,
+      "adjudicated_grade": 2,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous good fit: solid Python/FastAPI/Postgres and banking experience; missing Docker/K8s."
+    },
+    "c1_03_devops_infra.pdf": {
+      "candidate_id": "c1_03",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": 3,
+      "reviewer_b_grade": 2,
+      "adjudicated_grade": 2.5,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Minor discrepancy (|A-B|=1): Reviewer A favored deep infrastructure and containerization; Reviewer B noted missing FastAPI. Adjudicated consensus: 2.5 (strong partial fit)."
+    },
+    "c1_04_junior_backend.pdf": {
+      "candidate_id": "c1_04",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": 1,
+      "reviewer_b_grade": 1,
+      "adjudicated_grade": 1,
+      "duration_satisfied": false,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous marginal fit: junior background (1.5 yrs), missing Docker/PostgreSQL, no preferred domain exposure."
+    },
+    "c1_05_skill_noise.pdf": {
+      "candidate_id": "c1_05",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": 2,
+      "reviewer_b_grade": 2,
+      "adjudicated_grade": 2,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous partial fit: core technical skills present (Python, FastAPI, Docker) despite irrelevant noise skills."
+    },
+    "c1_06_tools_in_exp_only.pdf": {
+      "candidate_id": "c1_06",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": 2,
+      "reviewer_b_grade": 1,
+      "adjudicated_grade": 1.5,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Minor discrepancy (|A-B|=1): Reviewer A credited professional container work; Reviewer B penalized absence of project portfolio. Adjudicated consensus: 1.5."
+    },
+    "c1_07_overlapping_dates.pdf": {
+      "candidate_id": "c1_07",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": 3,
+      "reviewer_b_grade": 3,
+      "adjudicated_grade": 3,
+      "duration_satisfied": false,
+      "technical_defect": false,
+      "adjudication_notes": "Critical verification: Both reviewers graded criteria relevance as 3 (exceptional technical alignment), while independently marking duration_satisfied=False due to 2.0 unique calendar years vs. 3.0 required."
+    },
+    "c1_08_multi_unrelated_exp.pdf": {
+      "candidate_id": "c1_08",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": 2,
+      "reviewer_b_grade": 2,
+      "adjudicated_grade": 2,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous: non-technical prior service jobs do not dilute verified 3 years of fintech development capability."
+    },
+    "c1_09_unrelated_designer.pdf": {
+      "candidate_id": "c1_09",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": 0,
+      "reviewer_b_grade": 0,
+      "adjudicated_grade": 0,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous clean zero: graphic design background with zero relevance to backend cloud infrastructure."
+    },
+    "c1_10_defect_timeout.pdf": {
+      "candidate_id": "c1_10",
+      "target_jd_id": "jd_backend_cloud",
+      "reviewer_a_grade": null,
+      "reviewer_b_grade": null,
+      "adjudicated_grade": null,
+      "duration_satisfied": true,
+      "technical_defect": true,
+      "adjudication_notes": "Technical failure: LLM extraction timeout. Both reviewers flagged as technical defect, explicitly excluded from Grade 0."
+    },
+    "c2_01_nlp_researcher.pdf": {
+      "candidate_id": "c2_01",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": 3,
+      "reviewer_b_grade": 3,
+      "adjudicated_grade": 3,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous exceptional fit: PhD NLP background, LLM fine-tuning, FAISS vector search, all skills matched."
+    },
+    "c2_02_ml_engineer.pdf": {
+      "candidate_id": "c2_02",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": 3,
+      "reviewer_b_grade": 2,
+      "adjudicated_grade": 2.5,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Minor discrepancy (|A-B|=1): Reviewer A highlighted practical inference deployment (Ollama); Reviewer B noted missing theoretical NLP depth. Adjudicated consensus: 2.5."
+    },
+    "c2_03_data_scientist.pdf": {
+      "candidate_id": "c2_03",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": 2,
+      "reviewer_b_grade": 2,
+      "adjudicated_grade": 2,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous good fit: solid classical NLP and text classification, but lacks PyTorch/transformer deep learning experience."
+    },
+    "c2_04_junior_ml.pdf": {
+      "candidate_id": "c2_04",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": 1,
+      "reviewer_b_grade": 1,
+      "adjudicated_grade": 1,
+      "duration_satisfied": false,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous marginal fit: computer vision intern background, lacks NLP and vector search, 1.0 yr experience vs. 2.0 min."
+    },
+    "c2_05_skill_noise.pdf": {
+      "candidate_id": "c2_05",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": 2,
+      "reviewer_b_grade": 2,
+      "adjudicated_grade": 2,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous: core PyTorch/NLP skills verified despite presence of extraneous finance and accounting skills."
+    },
+    "c2_06_tools_in_exp_only.pdf": {
+      "candidate_id": "c2_06",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": 2,
+      "reviewer_b_grade": 1,
+      "adjudicated_grade": 1.5,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Minor discrepancy (|A-B|=1): Reviewer A gave credit for enterprise FAISS/HuggingFace usage; Reviewer B penalized lack of demonstrable projects. Adjudicated consensus: 1.5."
+    },
+    "c2_07_overlapping_dates.pdf": {
+      "candidate_id": "c2_07",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": 3,
+      "reviewer_b_grade": 3,
+      "adjudicated_grade": 3,
+      "duration_satisfied": false,
+      "technical_defect": false,
+      "adjudication_notes": "Critical verification: Both reviewers graded criteria relevance as 3 (exceptional deep learning research), with duration_satisfied=False due to 1.0 unique calendar year vs. 2.0 min required."
+    },
+    "c2_08_multi_unrelated_exp.pdf": {
+      "candidate_id": "c2_08",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": 2,
+      "reviewer_b_grade": 2,
+      "adjudicated_grade": 2,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous: culinary experience does not dilute 2.5 years of text embeddings research."
+    },
+    "c2_09_unrelated_accountant.pdf": {
+      "candidate_id": "c2_09",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": 0,
+      "reviewer_b_grade": 0,
+      "adjudicated_grade": 0,
+      "duration_satisfied": true,
+      "technical_defect": false,
+      "adjudication_notes": "Unanimous clean zero: CPA corporate auditor with zero machine learning or computer science background."
+    },
+    "c2_10_defect_retrieval.pdf": {
+      "candidate_id": "c2_10",
+      "target_jd_id": "jd_applied_ml",
+      "reviewer_a_grade": null,
+      "reviewer_b_grade": null,
+      "adjudicated_grade": null,
+      "duration_satisfied": true,
+      "technical_defect": true,
+      "adjudication_notes": "Technical failure: vector retrieval dimension mismatch. Excluded from relevance grading; flagged as technical defect."
+    }
+  }
+}

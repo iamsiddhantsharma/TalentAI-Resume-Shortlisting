@@ -1,0 +1,4 @@
+Sample Document
+
+This is a sample file generated for testing. You can use these files to
+test upload, parsing, or document processing pipelines.

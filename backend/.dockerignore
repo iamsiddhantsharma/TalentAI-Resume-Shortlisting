@@ -1,0 +1,39 @@
+# ==============================================================================
+# TalentAI — Backend .dockerignore
+# Prevents baking secrets, local data, test artifacts, and caches into backend image
+# ==============================================================================
+
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+
+# Python runtime artifacts and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+
+# Local uploaded/extracted candidate data
+app/uploads/
+data/
+
+# Local logs
+logs/
+*.log
+
+# Test suites and test fixtures (kept on host, not in production image)
+test_*.py
+test_data/
+sample.docx
+sample.pdf
+sample.txt
+evaluate_similarity_calibration.py
+
+# IDE & Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

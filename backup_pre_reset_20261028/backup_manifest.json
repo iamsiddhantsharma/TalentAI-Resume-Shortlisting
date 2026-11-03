@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-10-28T16:10:56.111434+00:00",
+  "database": "talent_ai",
+  "collections": {
+    "batches": {
+      "count": 6,
+      "file": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backup_pre_reset_20261028\\mongodb\\batches.json",
+      "size_bytes": 3463,
+      "sha256": "56d54dd66b52454cb2fe6352678472152e80ee1106daa1b2b55ece38f4606649"
+    },
+    "resumes": {
+      "count": 264,
+      "file": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backup_pre_reset_20261028\\mongodb\\resumes.json",
+      "size_bytes": 869328,
+      "sha256": "c6423351a401f008e3fac96793e1ad882bab20a58dd336e4173f4382d1347100"
+    },
+    "resume_embeddings": {
+      "count": 127,
+      "file": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backup_pre_reset_20261028\\mongodb\\resume_embeddings.json",
+      "size_bytes": 79759279,
+      "sha256": "0a080ecb8000d09db91e6c9bf2ad11e854bfd0de8b688f2d2acc363ac7f96dba"
+    },
+    "job_descriptions": {
+      "count": 0,
+      "file": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backup_pre_reset_20261028\\mongodb\\job_descriptions.json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "jd_embeddings": {
+      "count": 0,
+      "file": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backup_pre_reset_20261028\\mongodb\\jd_embeddings.json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ranking_jobs": {
+      "count": 11,
+      "file": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backup_pre_reset_20261028\\mongodb\\ranking_jobs.json",
+      "size_bytes": 296976,
+      "sha256": "d59e0fbc92ef80927fc62df8fb1f85abacb70e01f4aff67c92ac5a766bc7522d"
+    }
+  },
+  "files": {
+    "cv_all_93cce6d0.zip": {
+      "source": "app\\uploads\\incoming\\93cce6d0-3f25-4bdb-b11a-c423caf5f6b0\\cv all_f6d4b7a6.zip",
+      "destination": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backup_pre_reset_20261028\\zip_archives\\cv_all_93cce6d0.zip",
+      "size_bytes": 40906956,
+      "sha256": "4f4defdd6fa53296553c36936e1a39a0fb08344b298ce51c8e8b4fadea2c8010"
+    },
+    "cv_all_68445c44.zip": {
+      "source": "app\\uploads\\incoming\\68445c44-0c81-4790-9fee-d195c1231a8d\\cv all_e7a31519.zip",
+      "destination": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backup_pre_reset_20261028\\zip_archives\\cv_all_68445c44.zip",
+      "size_bytes": 40906956,
+      "sha256": "4f4defdd6fa53296553c36936e1a39a0fb08344b298ce51c8e8b4fadea2c8010"
+    },
+    "talentai.log": {
+      "source": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backend\\logs\\talentai.log",
+      "destination": "c:\\Users\\siddh\\OneDrive\\Desktop\\Talent_AI\\backup_pre_reset_20261028\\logs\\talentai_backup.log",
+      "size_bytes": 4696891,
+      "sha256": "c26e5c484fc9ff3551503e2e34f07fcf4834f65a16b7be88633f755191cddf45"
+    }
+  }
+}

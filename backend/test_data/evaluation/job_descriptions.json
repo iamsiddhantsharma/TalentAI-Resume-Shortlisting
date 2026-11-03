@@ -1,0 +1,70 @@
+{
+  "jd_01_fullstack_cloud": {
+    "jd_id": "jd_01_fullstack_cloud",
+    "title": "Senior Full-Stack Cloud Engineer",
+    "required_skills": ["Python", "FastAPI", "Docker", "PostgreSQL"],
+    "responsibilities": [
+      "Design and implement scalable microservices APIs",
+      "Optimize SQL database queries and migrations",
+      "Configure containerized cloud deployments"
+    ],
+    "tools_and_technologies": ["Docker", "Kubernetes", "PostgreSQL"],
+    "experience_requirements": [
+      {
+        "minimum_years": 3.0,
+        "maximum_years": 6.0,
+        "preferred_domains": ["Fintech", "Cloud Systems"]
+      }
+    ]
+  },
+  "jd_02_ml_research_no_tools": {
+    "jd_id": "jd_02_ml_research_no_tools",
+    "title": "Machine Learning Research Scientist",
+    "required_skills": ["PyTorch", "Python", "Transformers"],
+    "responsibilities": [
+      "Train foundation models on multimodal data",
+      "Evaluate semantic retrieval and ranking pipelines"
+    ],
+    "tools_and_technologies": [],
+    "experience_requirements": [
+      {
+        "minimum_years": 2.0,
+        "maximum_years": 5.0,
+        "preferred_domains": ["Deep Learning"]
+      }
+    ]
+  },
+  "jd_03_devops_no_domains": {
+    "jd_id": "jd_03_devops_no_domains",
+    "title": "Infrastructure and Platform Engineer",
+    "required_skills": ["Terraform", "Linux", "CI/CD"],
+    "responsibilities": [
+      "Automate cloud infrastructure provisioning",
+      "Maintain continuous deployment pipelines"
+    ],
+    "tools_and_technologies": ["Terraform", "Ansible"],
+    "experience_requirements": [
+      {
+        "minimum_years": 3.0,
+        "maximum_years": 7.0,
+        "preferred_domains": []
+      }
+    ]
+  },
+  "jd_04_data_analyst_skills_tools": {
+    "jd_id": "jd_04_data_analyst_skills_tools",
+    "title": "BI and Data Reporting Analyst",
+    "required_skills": ["SQL", "Tableau", "Excel"],
+    "responsibilities": [],
+    "tools_and_technologies": ["Tableau", "PowerBI"],
+    "experience_requirements": []
+  },
+  "jd_05_vacuous_empty": {
+    "jd_id": "jd_05_vacuous_empty",
+    "title": "Unspecified Generic Posting",
+    "required_skills": [],
+    "responsibilities": [],
+    "tools_and_technologies": [],
+    "experience_requirements": []
+  }
+}

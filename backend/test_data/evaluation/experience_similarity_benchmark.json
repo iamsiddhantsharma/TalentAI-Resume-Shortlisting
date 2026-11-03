@@ -1,0 +1,405 @@
+[
+  {
+    "id": "genuine_ml_01",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Designed, trained, and fine-tuned PyTorch convolutional neural networks for semantic image segmentation; optimized cross-entropy and Dice loss, achieving 0.88 mIoU on test benchmarks.",
+    "jd_requirement": "Design, develop, and evaluate machine learning and deep learning models for computational perception and computer vision.",
+    "expected_relevance": true,
+    "rationale": "Direct deep learning model architecture design, training, loss optimization, and evaluation metrics in PyTorch."
+  },
+  {
+    "id": "genuine_ml_02",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Implemented RoBERTa and DeBERTa transformer architectures for clinical named entity recognition; conducted hyperparameter tuning and evaluated precision, recall, and F1 scores.",
+    "jd_requirement": "Experience in Natural Language Processing, transformer architectures, and model evaluation.",
+    "expected_relevance": true,
+    "rationale": "Core NLP work with transformer fine-tuning, hyperparameter tuning, and standard validation metrics."
+  },
+  {
+    "id": "genuine_ml_03",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Trained gradient boosted decision trees (XGBoost and LightGBM) for credit risk default prediction; engineered 45 domain features and conducted 5-fold cross-validation.",
+    "jd_requirement": "Machine Learning experience with feature engineering, model selection, and predictive analytics.",
+    "expected_relevance": true,
+    "rationale": "Classical machine learning model training, statistical feature engineering, and cross-validation."
+  },
+  {
+    "id": "genuine_ml_04",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Developed distributed deep learning training pipelines using TensorFlow and Horovod across multi-GPU clusters, reducing training convergence time by 40%.",
+    "jd_requirement": "Hands-on experience with deep learning frameworks (TensorFlow, PyTorch) and distributed model training.",
+    "expected_relevance": true,
+    "rationale": "Substantive distributed deep learning engineering and model convergence optimization."
+  },
+  {
+    "id": "genuine_ml_05",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Conducted computational simulations of molecular dynamics using numerical PDEs and Monte Carlo methods in Python and C++.",
+    "jd_requirement": "Experience in Computational Science, mathematical modeling, numerical simulations, and scientific computing.",
+    "expected_relevance": true,
+    "rationale": "Direct alignment with computational science simulations and numerical methods."
+  },
+  {
+    "id": "genuine_ml_06",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Fine-tuned LLaMA-3 8B parameter models using LoRA/QLoRA on specialized legal corpora; evaluated output perplexity and human-aligned benchmark accuracy.",
+    "jd_requirement": "Experience with Generative AI, Large Language Models (LLMs), fine-tuning techniques (LoRA/QLoRA), and model evaluation.",
+    "expected_relevance": true,
+    "rationale": "Modern GenAI LLM fine-tuning with parameter-efficient methods and evaluation metrics."
+  },
+  {
+    "id": "genuine_ml_07",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Constructed automated model evaluation framework tracking AUC-ROC, PR-AUC, calibration curves, and feature importance drift in production.",
+    "jd_requirement": "Machine Learning model validation, statistical performance tracking, and drift analysis.",
+    "expected_relevance": true,
+    "rationale": "Deep model validation and statistical performance measurement."
+  },
+  {
+    "id": "genuine_ml_08",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Built recurrent neural networks (LSTMs) in PyTorch to forecast multivariate energy grid time-series data with mean squared error optimization.",
+    "jd_requirement": "Time-series forecasting, neural networks, and statistical machine learning.",
+    "expected_relevance": true,
+    "rationale": "Neural network architecture development for time-series modeling."
+  },
+  {
+    "id": "genuine_ml_09",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Implemented self-supervised contrastive learning algorithms (SimCLR) for medical imaging feature representations.",
+    "jd_requirement": "Machine Learning and Deep Learning experience with representation learning and neural network training.",
+    "expected_relevance": true,
+    "rationale": "Advanced machine learning research and representation learning."
+  },
+  {
+    "id": "genuine_ml_10",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Trained Scikit-Learn classification and regression algorithms, performed Bayesian hyperparameter optimization with Optuna, and analyzed confusion matrices.",
+    "jd_requirement": "Machine Learning engineering with Scikit-learn, hyperparameter optimization, and statistical modeling.",
+    "expected_relevance": true,
+    "rationale": "Practical ML modeling with systematic optimization."
+  },
+  {
+    "id": "genuine_ml_11",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Designed generative diffusion models for synthetic tabular data generation; verified distributional fidelity using Wasserstein distance.",
+    "jd_requirement": "Generative modeling, deep learning architectures, and statistical validation.",
+    "expected_relevance": true,
+    "rationale": "Generative deep learning architecture and statistical distance metrics."
+  },
+  {
+    "id": "genuine_ml_12",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Developed finite-difference numerical solvers for partial differential equations modeling heat dissipation in semiconductor chips.",
+    "jd_requirement": "Computational Science, numerical analysis, and physical simulation algorithms.",
+    "expected_relevance": true,
+    "rationale": "Direct computational science numerical modeling."
+  },
+  {
+    "id": "genuine_ml_13",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Engineered embedding models using sentence-transformers and evaluated retrieval precision with NDCG@10 on vector search queries.",
+    "jd_requirement": "Semantic search, neural embeddings, vector indexing, and ranking evaluation.",
+    "expected_relevance": true,
+    "rationale": "Neural embedding representation learning and IR evaluation."
+  },
+  {
+    "id": "genuine_ml_14",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Trained reinforcement learning agents using Deep Q-Networks (DQN) in OpenAI Gym to optimize automated warehouse robot routing.",
+    "jd_requirement": "Machine Learning, Reinforcement Learning, and algorithmic optimization.",
+    "expected_relevance": true,
+    "rationale": "Reinforcement learning algorithm implementation."
+  },
+  {
+    "id": "genuine_ml_15",
+    "category": "genuine_ml",
+    "candidate_work_summary": "Implemented graph neural networks (GNNs) using PyTorch Geometric for fraud detection across millions of financial transaction nodes.",
+    "jd_requirement": "Advanced Machine Learning architectures, Graph Neural Networks, and deep learning for anomaly detection.",
+    "expected_relevance": true,
+    "rationale": "Graph deep learning for anomaly detection."
+  },
+
+  {
+    "id": "transferable_backend_01",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Developed REST APIs with Flask and Python, integrated Cosmos DB, Azure cloud hosting, Postman testing, Swagger documentation.",
+    "jd_requirement": "Design, develop, and evaluate machine learning models and computational algorithms.",
+    "expected_relevance": false,
+    "rationale": "Diwakar baseline case: Generic backend API development, database queries, and cloud hosting without AI/ML deliverables."
+  },
+  {
+    "id": "transferable_backend_02",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Built microservices using FastAPI and SQLAlchemy; created CRUD endpoints for user profile management and integrated PostgreSQL database migrations.",
+    "jd_requirement": "Experience in Machine Learning, Deep Learning, and predictive modeling.",
+    "expected_relevance": false,
+    "rationale": "FastAPI and PostgreSQL CRUD web engineering; contains no ML model training or evaluation."
+  },
+  {
+    "id": "transferable_backend_03",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Engineered Docker container pipelines and deployed scalable web applications on AWS ECS with Application Load Balancers and CloudWatch monitoring.",
+    "jd_requirement": "Experience in Computational Science, Artificial Intelligence, and Machine Learning.",
+    "expected_relevance": false,
+    "rationale": "DevOps and cloud infrastructure hosting; no domain-specific AI/ML work."
+  },
+  {
+    "id": "transferable_backend_04",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Wrote complex SQL analytical queries, table joins, and stored procedures to generate monthly executive business intelligence reports.",
+    "jd_requirement": "Experience in Machine Learning, Statistical Modeling, and Neural Networks.",
+    "expected_relevance": false,
+    "rationale": "Traditional relational database reporting; does not constitute machine learning or neural networks."
+  },
+  {
+    "id": "transferable_backend_05",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Implemented JWT authentication, OAuth2 authorization, and role-based access control for enterprise customer portal in Python Django.",
+    "jd_requirement": "Experience with Machine Learning and Computational Science.",
+    "expected_relevance": false,
+    "rationale": "Web application security and authentication; unrelated to machine learning."
+  },
+  {
+    "id": "transferable_backend_06",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Constructed message queues using Celery and Redis to handle asynchronous email delivery and file upload processing.",
+    "jd_requirement": "Experience in Deep Learning, NLP, and model evaluation.",
+    "expected_relevance": false,
+    "rationale": "Backend asynchronous queueing architecture with Redis; zero AI/ML tasks."
+  },
+  {
+    "id": "transferable_backend_07",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Designed MongoDB document schemas, indexing strategies, and aggregation pipelines for high-throughput ecommerce product catalogs.",
+    "jd_requirement": "Machine Learning and Computational Science analyst experience.",
+    "expected_relevance": false,
+    "rationale": "NoSQL database management and indexing; lacks AI/ML algorithms."
+  },
+  {
+    "id": "transferable_backend_08",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Automated API regression tests using Postman, Newman, and PyTest; generated HTML test execution reports for CI/CD pipeline.",
+    "jd_requirement": "Experience in Machine Learning model training and validation.",
+    "expected_relevance": false,
+    "rationale": "QA software testing and API endpoint validation; no ML models."
+  },
+  {
+    "id": "transferable_backend_09",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Maintained Kubernetes Helm charts, ingress controllers, and auto-scaling pods for high-availability enterprise services on GCP GKE.",
+    "jd_requirement": "Artificial Intelligence and Deep Learning professional experience.",
+    "expected_relevance": false,
+    "rationale": "Cluster orchestration and site reliability engineering."
+  },
+  {
+    "id": "transferable_backend_10",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Developed web scrapers using BeautifulSoup and Scrapy to parse structured product listings from public retail websites.",
+    "jd_requirement": "Natural Language Processing, text mining, and machine learning models.",
+    "expected_relevance": false,
+    "rationale": "HTML web scraping; does not involve NLP modeling or machine learning algorithms."
+  },
+  {
+    "id": "transferable_backend_11",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Configured Nginx reverse proxy, SSL/TLS certificates, and rate-limiting rules to protect API endpoints against DDoS attacks.",
+    "jd_requirement": "Machine Learning and Computational Science professional experience.",
+    "expected_relevance": false,
+    "rationale": "Web server network infrastructure and security configuration."
+  },
+  {
+    "id": "transferable_backend_12",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Refactored legacy monolithic PHP application into modular Python microservices with gRPC communication protocols.",
+    "jd_requirement": "Deep Learning and Computational Science modeling.",
+    "expected_relevance": false,
+    "rationale": "Software architecture refactoring; zero computational science or deep learning."
+  },
+  {
+    "id": "transferable_backend_13",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Built integration connectors syncing customer CRM records between Salesforce REST APIs and internal PostgreSQL data warehouse.",
+    "jd_requirement": "Machine Learning model engineering and statistical prediction.",
+    "expected_relevance": false,
+    "rationale": "Third-party SaaS API integration; no statistical or predictive modeling."
+  },
+  {
+    "id": "transferable_backend_14",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Implemented serverless AWS Lambda functions in Python triggered by S3 bucket uploads to resize images and convert file formats.",
+    "jd_requirement": "Computer Vision and Deep Learning model development.",
+    "expected_relevance": false,
+    "rationale": "Basic image file transformation; no computer vision or neural network inference."
+  },
+  {
+    "id": "transferable_backend_15",
+    "category": "transferable_backend",
+    "candidate_work_summary": "Created OpenAPI 3.0 documentation, mock API servers with Prism, and Postman collections for client onboarding.",
+    "jd_requirement": "Experience in Machine Learning and Computational Science.",
+    "expected_relevance": false,
+    "rationale": "API documentation and developer tooling; no AI/ML."
+  },
+
+  {
+    "id": "unrelated_01",
+    "category": "unrelated",
+    "candidate_work_summary": "Designed visual branding guidelines, corporate logos, vector illustrations, and responsive website layouts using Figma and Adobe Creative Suite.",
+    "jd_requirement": "Machine Learning, Deep Learning, and Computational Science modeling.",
+    "expected_relevance": false,
+    "rationale": "Graphic design and brand identity work."
+  },
+  {
+    "id": "unrelated_02",
+    "category": "unrelated",
+    "candidate_work_summary": "Managed Google Ads PPC campaigns, conducted keyword bid optimization, and tracked conversion funnels in Google Analytics.",
+    "jd_requirement": "Machine Learning algorithms, predictive analytics, and model evaluation.",
+    "expected_relevance": false,
+    "rationale": "Digital search engine marketing."
+  },
+  {
+    "id": "unrelated_03",
+    "category": "unrelated",
+    "candidate_work_summary": "Conducted cold outbound B2B sales outreach, scheduled enterprise client software demos, and maintained sales pipeline in HubSpot CRM.",
+    "jd_requirement": "Artificial Intelligence and Machine Learning engineering.",
+    "expected_relevance": false,
+    "rationale": "Sales and business development."
+  },
+  {
+    "id": "unrelated_04",
+    "category": "unrelated",
+    "candidate_work_summary": "Managed full-cycle recruitment for engineering roles, screened resumes, coordinated technical interviews, and extended offer letters.",
+    "jd_requirement": "Machine Learning and Computational Science experience.",
+    "expected_relevance": false,
+    "rationale": "Human resources and talent acquisition."
+  },
+  {
+    "id": "unrelated_05",
+    "category": "unrelated",
+    "candidate_work_summary": "Prepared annual corporate financial statements, conducted general ledger reconciliations, and filed quarterly state tax returns in QuickBooks.",
+    "jd_requirement": "Computational Science, Machine Learning, and mathematical modeling.",
+    "expected_relevance": false,
+    "rationale": "Accounting and tax compliance."
+  },
+  {
+    "id": "unrelated_06",
+    "category": "unrelated",
+    "candidate_work_summary": "Drafted commercial licensing agreements, non-disclosure contracts, and privacy policies in compliance with GDPR regulations.",
+    "jd_requirement": "Machine Learning, Deep Learning, and data science.",
+    "expected_relevance": false,
+    "rationale": "Legal counsel and contract drafting."
+  },
+  {
+    "id": "unrelated_07",
+    "category": "unrelated",
+    "candidate_work_summary": "Managed warehouse logistics, tracked physical pallet shipments, and optimized freight carrier scheduling using SAP ERP.",
+    "jd_requirement": "Artificial Intelligence, Neural Networks, and Computational Science.",
+    "expected_relevance": false,
+    "rationale": "Physical supply chain and freight logistics."
+  },
+  {
+    "id": "unrelated_08",
+    "category": "unrelated",
+    "candidate_work_summary": "Resolved Tier-1 customer support inquiries via Zendesk live chat, wrote knowledge base FAQ articles, and escalated software bugs.",
+    "jd_requirement": "Machine Learning and Computational Science modeling.",
+    "expected_relevance": false,
+    "rationale": "Customer support and ticket management."
+  },
+  {
+    "id": "unrelated_09",
+    "category": "unrelated",
+    "candidate_work_summary": "Organized on-site corporate conferences, negotiated catering contracts, and booked keynote speakers for 500-attendee events.",
+    "jd_requirement": "Machine Learning and Computational Science experience.",
+    "expected_relevance": false,
+    "rationale": "Event management and hospitality."
+  },
+  {
+    "id": "unrelated_10",
+    "category": "unrelated",
+    "candidate_work_summary": "Supervised residential construction job sites, scheduled subcontractor trades, and verified municipal building code compliance.",
+    "jd_requirement": "Machine Learning, Deep Learning, and Artificial Intelligence.",
+    "expected_relevance": false,
+    "rationale": "Construction site supervision."
+  },
+
+  {
+    "id": "edge_case_01",
+    "category": "edge_case",
+    "candidate_work_summary": "Packaged trained PyTorch computer vision models into ONNX runtime format, implemented TensorRT quantization, and achieved sub-15ms inference latency in production.",
+    "jd_requirement": "Machine Learning model deployment, inference optimization, and deep learning engineering.",
+    "expected_relevance": true,
+    "rationale": "Genuine model inference deployment and quantization; valid ML engineering deliverable."
+  },
+  {
+    "id": "edge_case_02",
+    "category": "edge_case",
+    "candidate_work_summary": "Constructed automated feature store and training dataset pipelines in Apache Spark, extracting time-windowed embeddings for ML model retraining.",
+    "jd_requirement": "Machine Learning data engineering, feature stores, and training data pipelines.",
+    "expected_relevance": true,
+    "rationale": "ML data pipeline built specifically for model training and feature stores."
+  },
+  {
+    "id": "edge_case_03",
+    "category": "edge_case",
+    "candidate_work_summary": "Called OpenAI API endpoints using Python requests library to generate text completions for customer support chatbot.",
+    "jd_requirement": "Design, develop, and evaluate custom machine learning models and NLP architectures.",
+    "expected_relevance": false,
+    "rationale": "Consumer API client calling third-party LLM; does not demonstrate custom ML model training or evaluation."
+  },
+  {
+    "id": "edge_case_04",
+    "category": "edge_case",
+    "candidate_work_summary": "Built user authentication and billing dashboard for an AI-powered SaaS startup using Django and Stripe APIs.",
+    "jd_requirement": "Machine Learning and Artificial Intelligence engineering experience.",
+    "expected_relevance": false,
+    "rationale": "AI-adjacent startup context, but the candidate's actual work was ordinary web billing and authentication."
+  },
+  {
+    "id": "edge_case_05",
+    "category": "edge_case",
+    "candidate_work_summary": "Implemented non-linear optimization algorithms using SciPy to minimize energy dissipation in physical mechanical linkages.",
+    "jd_requirement": "Computational Science, mathematical modeling, and numerical optimization algorithms.",
+    "expected_relevance": true,
+    "rationale": "Genuine scientific computing and mathematical numerical optimization."
+  },
+  {
+    "id": "edge_case_06",
+    "category": "edge_case",
+    "candidate_work_summary": "Built interactive PowerBI dashboards connecting to SQL Server to visualize monthly business revenue and churn metrics.",
+    "jd_requirement": "Machine Learning, statistical modeling, and predictive analytics.",
+    "expected_relevance": false,
+    "rationale": "BI dashboard visualization without machine learning algorithms or predictive modeling."
+  },
+  {
+    "id": "edge_case_07",
+    "category": "edge_case",
+    "candidate_work_summary": "Trained PyTorch fraud detection models.",
+    "jd_requirement": "Experience in Machine Learning, Deep Learning, and model training.",
+    "expected_relevance": true,
+    "rationale": "Terse senior bullet point, but explicitly states genuine deep learning model training."
+  },
+  {
+    "id": "edge_case_08",
+    "category": "edge_case",
+    "candidate_work_summary": "Exported MySQL database dumps to CSV files and uploaded them to an S3 bucket for the data science team.",
+    "jd_requirement": "Machine Learning data pipelines, feature engineering, and model training.",
+    "expected_relevance": false,
+    "rationale": "Basic data file dump; lacks feature engineering or ML pipeline logic."
+  },
+  {
+    "id": "edge_case_09",
+    "category": "edge_case",
+    "candidate_work_summary": "Dedicated 50% time to training Random Forest models for user churn prediction, and 50% time to building React dashboards.",
+    "jd_requirement": "Machine Learning model training, evaluation, and predictive analytics.",
+    "expected_relevance": true,
+    "rationale": "Mixed role with explicitly documented genuine ML model training alongside web work."
+  },
+  {
+    "id": "edge_case_10",
+    "category": "edge_case",
+    "candidate_work_summary": "Attended bi-weekly machine learning team meetings and reviewed presentation slides on generative AI.",
+    "jd_requirement": "Hands-on experience in Machine Learning and Artificial Intelligence development.",
+    "expected_relevance": false,
+    "rationale": "Passive attendance at AI meetings without hands-on technical deliverables."
+  }
+]

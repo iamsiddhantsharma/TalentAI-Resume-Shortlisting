@@ -1,0 +1,31 @@
+# ==============================================================================
+# TalentAI — Frontend .dockerignore
+# Prevents sending host node_modules, build output, or secrets to Docker daemon
+# ==============================================================================
+
+# Local node_modules (must be installed inside Linux Alpine container)
+node_modules/
+
+# Local dist build output
+dist/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test files and mocks (not needed in production Nginx image)
+src/test/
+*.test.jsx
+*.test.js
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store

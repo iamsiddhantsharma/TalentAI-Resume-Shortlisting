@@ -1,0 +1,71 @@
+{
+  "benchmark_jd_id": "jd_01_fullstack_cloud",
+  "grading_scale": {
+    "3": "Exceptional fit (all skills, strong project alignment, meets/exceeds domain experience)",
+    "2": "Good / partial fit (majority of skills, relevant projects, some domain experience)",
+    "1": "Marginal fit (minimal skills, weak semantic evidence, peripheral or unrelated experience)",
+    "0": "Unqualified / irrelevant (no matching skills, no qualifying evidence)"
+  },
+  "candidate_annotations": {
+    "cand_01_strong.pdf": {
+      "relevance_grade": 3,
+      "notes": "Direct microservices experience in Fintech & Cloud, all 4 skills matched, Docker/K8s/Postgres projects."
+    },
+    "cand_02_partial.pdf": {
+      "relevance_grade": 2,
+      "notes": "Python and Docker matched, 1 of 2 preferred domains (Fintech), moderate microservices alignment."
+    },
+    "cand_03_weak.pdf": {
+      "relevance_grade": 1,
+      "notes": "Only Python matched, no qualifying tool or responsibility evidence above 0.65 threshold."
+    },
+    "cand_04_zero.pdf": {
+      "relevance_grade": 0,
+      "notes": "No matching skills, Graphic Design background, 0.0 scores across all dimensions."
+    },
+    "cand_05_skill_noise.pdf": {
+      "relevance_grade": 2,
+      "notes": "Matches 3 of 4 core skills despite extensive non-technical noise skills."
+    },
+    "cand_06_tools_in_exp_only.pdf": {
+      "relevance_grade": 1,
+      "notes": "Tools listed in experience but no projects; tools component yields 0.0 under strict routing policy."
+    },
+    "cand_07_resp_in_proj_only.pdf": {
+      "relevance_grade": 2,
+      "notes": "Strong microservices evidence in academic/personal projects, though lacks formal employment."
+    },
+    "cand_08_multi_unrelated_exp.pdf": {
+      "relevance_grade": 2,
+      "notes": "Valid Fintech background; multiple unrelated hospitality roles do not diminish core capability."
+    },
+    "cand_09_overlapping_dates.pdf": {
+      "relevance_grade": 2,
+      "notes": "Concurrent full-time jobs properly de-duplicated in duration check."
+    },
+    "cand_10_missing_dates.pdf": {
+      "relevance_grade": 2,
+      "notes": "Strong qualitative match; missing dates flagged as diagnostic without corrupting relevance."
+    },
+    "cand_13_duplicate_a.pdf": {
+      "relevance_grade": 3,
+      "notes": "Duplicate identical candidate A for stability and tie-breaking testing."
+    },
+    "cand_13_duplicate_b.pdf": {
+      "relevance_grade": 3,
+      "notes": "Duplicate identical candidate B for stability and tie-breaking testing."
+    }
+  },
+  "technical_failure_candidates": {
+    "cand_11_fail_llm_skills.pdf": {
+      "failure_type": "LLM_SERVICE_TIMEOUT",
+      "expected_status": "incomplete",
+      "expected_unranked": true
+    },
+    "cand_12_fail_retrieval.pdf": {
+      "failure_type": "EMBEDDING_RETRIEVAL_ERROR",
+      "expected_status": "incomplete",
+      "expected_unranked": true
+    }
+  }
+}

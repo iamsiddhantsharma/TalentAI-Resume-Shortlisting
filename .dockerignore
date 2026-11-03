@@ -1,0 +1,53 @@
+# ==============================================================================
+# TalentAI — Root .dockerignore
+# Prevents sensitive credentials, real candidate data, and artifacts from build context
+# ==============================================================================
+
+# Git & IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Environment files & Secrets
+.env
+.env.*
+!.env.example
+
+# SSL Certificates & Private Keys
+nginx/ssl/*.crt
+nginx/ssl/*.key
+nginx/ssl/*.pem
+*.crt
+*.key
+*.pem
+
+# Python Virtual Environments & Caches
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node & Build artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Protected Data, Backups, and Uploads
+backup_pre_reset_20261028/
+data/
+backend/app/uploads/
+backend/test_data/
+backend/sample.docx
+backend/sample.pdf
+backend/sample.txt
+chroma_db/
+models/
+
+# Local Logs & Agent Brain Artifacts
+logs/
+*.log
+brain/
+project_closeout/

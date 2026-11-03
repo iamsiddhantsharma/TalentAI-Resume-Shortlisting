@@ -1,0 +1,122 @@
+# ==============================================================================
+# TalentAI — Production Docker Compose Specification
+# Unified HTTPS edge gateway with internal FastAPI & MongoDB networking
+# ==============================================================================
+
+services:
+  # ----------------------------------------------------------------------------
+  # 1. Edge Reverse Proxy & Frontend Web Server (Nginx)
+  # ----------------------------------------------------------------------------
+  nginx:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: talentai_nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      # Mount SSL certificate and private key (read-only)
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - talentai_internal
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider --no-check-certificate https://127.0.0.1/ || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  # ----------------------------------------------------------------------------
+  # 2. Application Backend API (FastAPI)
+  # ----------------------------------------------------------------------------
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: talentai_backend
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Linux host networking bridge resolution for host Ollama service
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    # Internal port only — NOT exposed to the public internet
+    expose:
+      - "8000"
+    volumes:
+      # Persistent storage for uploaded and extracted resumes
+      - talentai_uploads:/app/data/uploads
+      - talentai_extracted:/app/data/extracted
+      - talentai_failed:/app/data/failed
+      # Persistent application logs
+      - talentai_logs:/app/logs
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - talentai_internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/health"]
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+  # ----------------------------------------------------------------------------
+  # 3. Database Service (MongoDB 7.0)
+  # ----------------------------------------------------------------------------
+  mongodb:
+    image: mongo:7.0
+    container_name: talentai_mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME:-talentai_admin}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD:?MongoDB root password must be set in .env}
+      MONGO_INITDB_DATABASE: talentai
+    volumes:
+      # Persistent storage for recruitment database
+      - mongodb_data:/data/db
+      - mongodb_config:/data/configdb
+    # Internal database port only — NOT exposed to the host/internet
+    expose:
+      - "27017"
+    networks:
+      - talentai_internal
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+# ------------------------------------------------------------------------------
+# Isolated Internal Network
+# ------------------------------------------------------------------------------
+networks:
+  talentai_internal:
+    name: talentai_internal
+    driver: bridge
+
+# ------------------------------------------------------------------------------
+# Persistent Volume Declarations
+# ------------------------------------------------------------------------------
+volumes:
+  mongodb_data:
+    name: talentai_mongodb_data
+  mongodb_config:
+    name: talentai_mongodb_config
+  talentai_uploads:
+    name: talentai_uploads
+  talentai_extracted:
+    name: talentai_extracted
+  talentai_failed:
+    name: talentai_failed
+  talentai_logs:
+    name: talentai_logs

@@ -1,0 +1,370 @@
+{
+  "job_descriptions": {
+    "jd_backend_cloud": {
+      "jd_id": "jd_backend_cloud",
+      "title": "Senior Backend Cloud Engineer",
+      "required_skills": ["Python", "FastAPI", "Docker", "PostgreSQL"],
+      "responsibilities": [
+        "Design and implement scalable microservices APIs",
+        "Optimize SQL database queries and migrations",
+        "Configure containerized cloud deployments"
+      ],
+      "tools_and_technologies": ["Docker", "Kubernetes", "PostgreSQL"],
+      "experience_requirements": [
+        {
+          "minimum_years": 3.0,
+          "maximum_years": 6.0,
+          "preferred_domains": ["Fintech", "Cloud Systems"]
+        }
+      ]
+    },
+    "jd_applied_ml": {
+      "jd_id": "jd_applied_ml",
+      "title": "Applied Machine Learning Scientist",
+      "required_skills": ["Python", "PyTorch", "Transformers", "NLP"],
+      "responsibilities": [
+        "Fine-tune large language models and transformers for domain-specific NLP",
+        "Design vector embedding retrieval and semantic ranking pipelines",
+        "Deploy low-latency deep learning inference endpoints"
+      ],
+      "tools_and_technologies": ["PyTorch", "HuggingFace", "FAISS", "Ollama"],
+      "experience_requirements": [
+        {
+          "minimum_years": 2.0,
+          "maximum_years": 5.0,
+          "preferred_domains": ["Information Retrieval", "Natural Language Processing"]
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "candidate_id": "c1_01",
+      "filename": "c1_01_cloud_lead.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Elena Rostova",
+      "profile_summary": "Lead Backend & Cloud Infrastructure Architect with 5 years experience building distributed microservices in Fintech and AWS cloud systems.",
+      "skills": ["Python", "FastAPI", "Docker", "PostgreSQL", "Kubernetes", "AWS", "Redis"],
+      "matched_skills": ["Python", "FastAPI", "Docker", "PostgreSQL"],
+      "resp_sims": [0.95, 0.92, 0.90],
+      "tools_sims": [0.90, 0.88, 0.92],
+      "experiences": [
+        {"role": "Lead Cloud Engineer", "company": "Apex Fintech", "matched_domains": ["Fintech", "Cloud Systems"], "duration_years": 2.5, "relevant": true},
+        {"role": "Backend Infrastructure Architect", "company": "CloudPay Global", "matched_domains": ["Cloud Systems"], "duration_years": 2.0, "relevant": true}
+      ],
+      "unique_duration_years": 4.5,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c1_02",
+      "filename": "c1_02_python_dev.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Marcus Thorne",
+      "profile_summary": "Senior Python Backend Developer with 3.5 years experience in banking systems and relational database modeling.",
+      "skills": ["Python", "FastAPI", "PostgreSQL", "Django", "Git"],
+      "matched_skills": ["Python", "FastAPI", "PostgreSQL"],
+      "resp_sims": [0.85, 0.88, 0.50],
+      "tools_sims": [0.85, 0.55, 0.40],
+      "experiences": [
+        {"role": "Python Backend Engineer", "company": "NovaBank", "matched_domains": ["Fintech"], "duration_years": 3.5, "relevant": true}
+      ],
+      "unique_duration_years": 3.5,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c1_03",
+      "filename": "c1_03_devops_infra.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Siddharth Nair",
+      "profile_summary": "Platform and Cloud Systems Engineer specializing in container orchestration, Linux systems, and SQL databases.",
+      "skills": ["Python", "Docker", "PostgreSQL", "Kubernetes", "Linux", "Terraform"],
+      "matched_skills": ["Python", "Docker", "PostgreSQL"],
+      "resp_sims": [0.72, 0.75, 0.92],
+      "tools_sims": [0.90, 0.88, 0.70],
+      "experiences": [
+        {"role": "Platform Engineer", "company": "ScaleOps", "matched_domains": ["Cloud Systems"], "duration_years": 4.0, "relevant": true}
+      ],
+      "unique_duration_years": 4.0,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c1_04",
+      "filename": "c1_04_junior_backend.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Chloe Bennett",
+      "profile_summary": "Junior Web Developer with 1.5 years experience building REST APIs with Python and FastAPI for retail websites.",
+      "skills": ["Python", "FastAPI", "JavaScript", "HTML", "CSS"],
+      "matched_skills": ["Python", "FastAPI"],
+      "resp_sims": [0.80, 0.60, 0.45],
+      "tools_sims": [0.50, 0.40, 0.35],
+      "experiences": [
+        {"role": "Junior Web Developer", "company": "ShopSmart", "matched_domains": [], "duration_years": 1.5, "relevant": false}
+      ],
+      "unique_duration_years": 1.5,
+      "date_status": "minimum_duration_not_satisfied"
+    },
+    {
+      "candidate_id": "c1_05",
+      "filename": "c1_05_skill_noise.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Dmitri Volkov",
+      "profile_summary": "Versatile Software Generalist with 3 years experience across Python backend, Cloud infrastructure, and digital multimedia.",
+      "skills": ["Python", "FastAPI", "Docker", "Photoshop", "Blender", "Video Editing", "Copywriting", "SEO", "German", "Public Speaking"],
+      "matched_skills": ["Python", "FastAPI", "Docker"],
+      "resp_sims": [0.78, 0.72, 0.70],
+      "tools_sims": [0.82, 0.60, 0.50],
+      "experiences": [
+        {"role": "Software Developer", "company": "MediaTech", "matched_domains": ["Cloud Systems"], "duration_years": 3.0, "relevant": true}
+      ],
+      "unique_duration_years": 3.0,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c1_06",
+      "filename": "c1_06_tools_in_exp_only.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Rachel Adams",
+      "profile_summary": "Backend Software Engineer with 3.5 years experience developing payments services. Deployed Docker containers in previous employment roles, but lists no academic projects.",
+      "skills": ["Python", "FastAPI", "Docker", "PostgreSQL"],
+      "matched_skills": ["Python", "FastAPI", "Docker", "PostgreSQL"],
+      "resp_sims": [0.90, 0.85, 0.88],
+      "tools_sims": [0.0, 0.0, 0.0],
+      "experiences": [
+        {"role": "Fintech Engineer", "company": "SecureTransact", "matched_domains": ["Fintech"], "duration_years": 3.5, "relevant": true}
+      ],
+      "unique_duration_years": 3.5,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c1_07",
+      "filename": "c1_07_overlapping_dates.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Aaron Vance",
+      "profile_summary": "High-velocity engineer who held two concurrent backend positions in Fintech and Cloud Infrastructure between 2021 and 2023.",
+      "skills": ["Python", "FastAPI", "Docker", "PostgreSQL"],
+      "matched_skills": ["Python", "FastAPI", "Docker", "PostgreSQL"],
+      "resp_sims": [0.95, 0.90, 0.92],
+      "tools_sims": [0.90, 0.88, 0.92],
+      "experiences": [
+        {"role": "Fintech API Specialist", "company": "Vance Capital", "matched_domains": ["Fintech"], "duration_years": 2.0, "relevant": true},
+        {"role": "Cloud Architect", "company": "CloudBridge", "matched_domains": ["Cloud Systems"], "duration_years": 2.0, "relevant": true}
+      ],
+      "unique_duration_years": 2.0,
+      "date_status": "minimum_duration_not_satisfied"
+    },
+    {
+      "candidate_id": "c1_08",
+      "filename": "c1_08_multi_unrelated_exp.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Priya Sharma",
+      "profile_summary": "Career transitioner with 3 years of strong Fintech backend experience preceded by several customer service and hospitality roles.",
+      "skills": ["Python", "FastAPI", "Docker", "Customer Service", "Sales"],
+      "matched_skills": ["Python", "FastAPI", "Docker"],
+      "resp_sims": [0.82, 0.75, 0.70],
+      "tools_sims": [0.80, 0.65, 0.50],
+      "experiences": [
+        {"role": "Backend Developer", "company": "PayMatrix", "matched_domains": ["Fintech"], "duration_years": 3.0, "relevant": true},
+        {"role": "Barista", "company": "Bean Co", "matched_domains": [], "duration_years": 1.0, "relevant": false},
+        {"role": "Retail Associate", "company": "Fashion Mart", "matched_domains": [], "duration_years": 1.0, "relevant": false}
+      ],
+      "unique_duration_years": 3.0,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c1_09",
+      "filename": "c1_09_unrelated_designer.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Lucas Gray",
+      "profile_summary": "Senior Brand & UI/UX Designer with 5 years experience creating visual identity systems, typography, and web mockups.",
+      "skills": ["Figma", "UI/UX", "Typography", "Adobe Illustrator", "CSS"],
+      "matched_skills": [],
+      "resp_sims": [0.25, 0.20, 0.15],
+      "tools_sims": [0.20, 0.15, 0.10],
+      "experiences": [
+        {"role": "Creative Director", "company": "DesignLab", "matched_domains": [], "duration_years": 5.0, "relevant": false}
+      ],
+      "unique_duration_years": 5.0,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c1_10",
+      "filename": "c1_10_defect_timeout.pdf",
+      "target_jd_id": "jd_backend_cloud",
+      "name": "Kavita Rao",
+      "profile_summary": "Corrupted or timed out candidate profile resulting in LLM matching service timeout exception.",
+      "skills": ["Python", "FastAPI"],
+      "matched_skills": [],
+      "technical_failure": "LLM_SERVICE_TIMEOUT",
+      "resp_sims": [0.85, 0.80, 0.75],
+      "tools_sims": [0.80, 0.75, 0.70],
+      "experiences": [
+        {"role": "Software Engineer", "company": "Tech Corp", "matched_domains": ["Cloud Systems"], "duration_years": 3.5, "relevant": true}
+      ],
+      "unique_duration_years": 3.5,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c2_01",
+      "filename": "c2_01_nlp_researcher.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Dr. Aris Thorne",
+      "profile_summary": "PhD in Computational Linguistics with 3.5 years postdoctoral & industry experience fine-tuning LLMs, dense retrieval, and vector search.",
+      "skills": ["Python", "PyTorch", "Transformers", "NLP", "HuggingFace", "FAISS", "CUDA"],
+      "matched_skills": ["Python", "PyTorch", "Transformers", "NLP"],
+      "resp_sims": [0.95, 0.92, 0.88],
+      "tools_sims": [0.92, 0.90, 0.88, 0.85],
+      "experiences": [
+        {"role": "Applied NLP Scientist", "company": "Semantic AI", "matched_domains": ["Information Retrieval", "Natural Language Processing"], "duration_years": 3.5, "relevant": true}
+      ],
+      "unique_duration_years": 3.5,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c2_02",
+      "filename": "c2_02_ml_engineer.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Maya Lin",
+      "profile_summary": "Machine Learning Engineer with 3 years experience deploying deep learning models, Ollama endpoints, and semantic search systems.",
+      "skills": ["Python", "PyTorch", "Transformers", "Ollama", "Docker", "FAISS"],
+      "matched_skills": ["Python", "PyTorch", "Transformers"],
+      "resp_sims": [0.88, 0.75, 0.90],
+      "tools_sims": [0.88, 0.85, 0.82, 0.85],
+      "experiences": [
+        {"role": "ML Infrastructure Engineer", "company": "VectorFlow", "matched_domains": ["Information Retrieval"], "duration_years": 3.0, "relevant": true}
+      ],
+      "unique_duration_years": 3.0,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c2_03",
+      "filename": "c2_03_data_scientist.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Carlos Mendez",
+      "profile_summary": "Data Scientist with 2.5 years experience in classical NLP, topic modeling, and statistical text analysis using Scikit-Learn and SpaCy.",
+      "skills": ["Python", "NLP", "Scikit-Learn", "SpaCy", "Pandas", "SQL"],
+      "matched_skills": ["Python", "NLP"],
+      "resp_sims": [0.75, 0.62, 0.50],
+      "tools_sims": [0.55, 0.50, 0.40, 0.35],
+      "experiences": [
+        {"role": "Data Scientist", "company": "Analytica", "matched_domains": ["Natural Language Processing"], "duration_years": 2.5, "relevant": true}
+      ],
+      "unique_duration_years": 2.5,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c2_04",
+      "filename": "c2_04_junior_ml.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Emma Watson-Lee",
+      "profile_summary": "Recent graduate with 1 year experience in PyTorch computer vision models and CNN image classification.",
+      "skills": ["Python", "PyTorch", "OpenCV", "NumPy"],
+      "matched_skills": ["Python", "PyTorch"],
+      "resp_sims": [0.50, 0.55, 0.60],
+      "tools_sims": [0.80, 0.50, 0.45, 0.40],
+      "experiences": [
+        {"role": "Computer Vision Intern", "company": "VisionWorks", "matched_domains": [], "duration_years": 1.0, "relevant": false}
+      ],
+      "unique_duration_years": 1.0,
+      "date_status": "minimum_duration_not_satisfied"
+    },
+    {
+      "candidate_id": "c2_05",
+      "filename": "c2_05_skill_noise.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Vikram Joshi",
+      "profile_summary": "ML Engineer with 2.5 years experience in PyTorch and NLP, possessing diverse business, accounting, and sales skills.",
+      "skills": ["Python", "PyTorch", "NLP", "Accounting", "Corporate Finance", "Public Relations", "Supply Chain", "Tableau"],
+      "matched_skills": ["Python", "PyTorch", "NLP"],
+      "resp_sims": [0.82, 0.78, 0.70],
+      "tools_sims": [0.85, 0.65, 0.60, 0.55],
+      "experiences": [
+        {"role": "NLP Engineer", "company": "LinguaTech", "matched_domains": ["Natural Language Processing"], "duration_years": 2.5, "relevant": true}
+      ],
+      "unique_duration_years": 2.5,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c2_06",
+      "filename": "c2_06_tools_in_exp_only.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Zoe Kravitz-Chen",
+      "profile_summary": "Research Engineer who deployed HuggingFace models and FAISS in professional roles but maintains no dedicated open-source projects.",
+      "skills": ["Python", "PyTorch", "Transformers", "NLP"],
+      "matched_skills": ["Python", "PyTorch", "Transformers", "NLP"],
+      "resp_sims": [0.90, 0.88, 0.85],
+      "tools_sims": [0.0, 0.0, 0.0, 0.0],
+      "experiences": [
+        {"role": "Deep Learning Researcher", "company": "CognitiveLab", "matched_domains": ["Natural Language Processing"], "duration_years": 3.0, "relevant": true}
+      ],
+      "unique_duration_years": 3.0,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c2_07",
+      "filename": "c2_07_overlapping_dates.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Tariq Mansoor",
+      "profile_summary": "Contract NLP Scientist working across two concurrent deep learning contracts in 2022. Unique calendar span is 1 year (min required is 2.0).",
+      "skills": ["Python", "PyTorch", "Transformers", "NLP"],
+      "matched_skills": ["Python", "PyTorch", "Transformers", "NLP"],
+      "resp_sims": [0.92, 0.90, 0.85],
+      "tools_sims": [0.90, 0.88, 0.85, 0.80],
+      "experiences": [
+        {"role": "NLP Contractor", "company": "ModelHouse", "matched_domains": ["Natural Language Processing"], "duration_years": 1.0, "relevant": true},
+        {"role": "IR Contractor", "company": "SearchOps", "matched_domains": ["Information Retrieval"], "duration_years": 1.0, "relevant": true}
+      ],
+      "unique_duration_years": 1.0,
+      "date_status": "minimum_duration_not_satisfied"
+    },
+    {
+      "candidate_id": "c2_08",
+      "filename": "c2_08_multi_unrelated_exp.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Sophie Dupont",
+      "profile_summary": "ML Specialist with 2.5 years of strong text embeddings research following earlier work in culinary arts and fitness training.",
+      "skills": ["Python", "PyTorch", "Transformers", "Cooking", "Fitness Coaching"],
+      "matched_skills": ["Python", "PyTorch", "Transformers"],
+      "resp_sims": [0.85, 0.80, 0.75],
+      "tools_sims": [0.85, 0.80, 0.60, 0.55],
+      "experiences": [
+        {"role": "Research Engineer", "company": "TextMind", "matched_domains": ["Information Retrieval"], "duration_years": 2.5, "relevant": true},
+        {"role": "Pastry Chef", "company": "Boulangerie", "matched_domains": [], "duration_years": 2.0, "relevant": false}
+      ],
+      "unique_duration_years": 2.5,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c2_09",
+      "filename": "c2_09_unrelated_accountant.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Brian Miller",
+      "profile_summary": "CPA Senior Auditor with 6 years experience conducting financial audits, corporate tax prep, and GAAP balance sheets.",
+      "skills": ["Accounting", "Tax Preparation", "QuickBooks", "Auditing", "Excel", "GAAP"],
+      "matched_skills": [],
+      "resp_sims": [0.20, 0.15, 0.10],
+      "tools_sims": [0.15, 0.10, 0.10, 0.05],
+      "experiences": [
+        {"role": "Audit Senior", "company": "KPMG Partner Firm", "matched_domains": [], "duration_years": 6.0, "relevant": false}
+      ],
+      "unique_duration_years": 6.0,
+      "date_status": "duration_satisfied"
+    },
+    {
+      "candidate_id": "c2_10",
+      "filename": "c2_10_defect_retrieval.pdf",
+      "target_jd_id": "jd_applied_ml",
+      "name": "Hannah Schmidt",
+      "profile_summary": "Candidate profile whose embedding retrieval failed due to corrupted section vector representation.",
+      "skills": ["Python", "PyTorch", "Transformers"],
+      "matched_skills": ["Python", "PyTorch", "Transformers"],
+      "technical_failure": "EMBEDDING_RETRIEVAL_ERROR",
+      "resp_sims": [0.90, 0.85, 0.80],
+      "tools_sims": [0.85, 0.80, 0.75, 0.70],
+      "experiences": [
+        {"role": "AI Researcher", "company": "DeepNLP", "matched_domains": ["Natural Language Processing"], "duration_years": 3.0, "relevant": true}
+      ],
+      "unique_duration_years": 3.0,
+      "date_status": "duration_satisfied"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "_id": "54723009-7b13-415d-b49b-e0a7406390ce",
+    "batch_id": "54723009-7b13-415d-b49b-e0a7406390ce",
+    "batch_name": "Legacy Upload (54723009)",
+    "status": "superseded",
+    "is_active": false,
+    "total_files": 0,
+    "processed_count": 0,
+    "completed_count": 0,
+    "failed_count": 0,
+    "auto_activate": false,
+    "created_at": "2026-10-09T14:42:50.856949+00:00",
+    "updated_at": "2026-10-09T14:42:50.856949+00:00",
+    "last_activity_at": "2026-10-09T14:42:50.856949+00:00",
+    "expires_at": null,
+    "metadata": {
+      "is_legacy": true
+    }
+  },
+  {
+    "_id": "test_resume_001",
+    "batch_id": "test_resume_001",
+    "batch_name": "Legacy Upload (test_res)",
+    "status": "superseded",
+    "is_active": false,
+    "total_files": 0,
+    "processed_count": 0,
+    "completed_count": 0,
+    "failed_count": 0,
+    "auto_activate": false,
+    "created_at": "2026-10-09T14:42:50.856949+00:00",
+    "updated_at": "2026-10-09T14:42:50.856949+00:00",
+    "last_activity_at": "2026-10-09T14:42:50.856949+00:00",
+    "expires_at": null,
+    "metadata": {
+      "is_legacy": true
+    }
+  },
+  {
+    "_id": "d8e07221-93a8-427a-a532-4cabc6b8e05d",
+    "batch_id": "d8e07221-93a8-427a-a532-4cabc6b8e05d",
+    "batch_name": "Legacy Upload (d8e07221)",
+    "status": "superseded",
+    "is_active": false,
+    "total_files": 0,
+    "processed_count": 0,
+    "completed_count": 0,
+    "failed_count": 0,
+    "auto_activate": false,
+    "created_at": "2026-10-09T14:42:50.856949+00:00",
+    "updated_at": "2026-10-09T14:42:50.856949+00:00",
+    "last_activity_at": "2026-10-09T14:42:50.856949+00:00",
+    "expires_at": null,
+    "metadata": {
+      "is_legacy": true
+    }
+  },
+  {
+    "_id": "941babc8-da1f-4c86-991a-5bdd17c3de9c",
+    "batch_id": "941babc8-da1f-4c86-991a-5bdd17c3de9c",
+    "batch_name": "machine-learning-resume-example (1).pdf",
+    "status": "superseded",
+    "is_active": false,
+    "total_files": 1,
+    "processed_count": 1,
+    "completed_count": 1,
+    "failed_count": 0,
+    "auto_activate": true,
+    "created_at": "2026-10-10T06:35:17.890515Z",
+    "updated_at": "2026-10-28T12:40:38.269706+00:00",
+    "last_activity_at": "2026-10-28T12:40:38.269706+00:00",
+    "expires_at": "2026-10-29T12:40:38.269706+00:00",
+    "metadata": {}
+  },
+  {
+    "_id": "93cce6d0-3f25-4bdb-b11a-c423caf5f6b0",
+    "batch_id": "93cce6d0-3f25-4bdb-b11a-c423caf5f6b0",
+    "batch_name": "cv all.zip",
+    "status": "processing",
+    "is_active": false,
+    "total_files": 146,
+    "processed_count": 142,
+    "completed_count": 1,
+    "failed_count": 141,
+    "auto_activate": true,
+    "created_at": "2026-10-28T11:23:00.512093Z",
+    "updated_at": "2026-10-28T11:30:16.739080+00:00",
+    "last_activity_at": "2026-10-28T11:30:16.739080+00:00",
+    "expires_at": null,
+    "metadata": {}
+  },
+  {
+    "_id": "68445c44-0c81-4790-9fee-d195c1231a8d",
+    "batch_id": "68445c44-0c81-4790-9fee-d195c1231a8d",
+    "batch_name": "cv all.zip",
+    "status": "active",
+    "is_active": true,
+    "total_files": 146,
+    "processed_count": 146,
+    "completed_count": 127,
+    "failed_count": 19,
+    "auto_activate": true,
+    "created_at": "2026-10-28T13:24:47.595299Z",
+    "updated_at": "2026-10-28T14:30:35.490861+00:00",
+    "last_activity_at": "2026-10-28T14:30:35.490861+00:00",
+    "expires_at": null,
+    "metadata": {}
+  }
+]
